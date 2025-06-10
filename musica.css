@@ -1,0 +1,92 @@
+body {
+  font-family: "teko", sans-serif;
+  background-color: black;
+  color: #6bd41a;
+}
+
+h1{
+ font-size: 5.5em;
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: 900;
+ letter-spacing: 3px;
+}
+#logo {
+    width: 12%;
+    height: 10%;
+}
+
+#logo img {
+    width: 150px;
+    height: auto;
+    justify-content: flex-start;
+    margin-top: -7px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background: rgba(20, 20, 20, 0.8);
+  border: 2px solid #6bd41a;
+  border-radius: 5px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  background: #111;
+  border: 2px solid #6bd41a;
+  color: #6bd41a;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+form input[type="submit"] {
+  background: #6bd41a;
+  color: #000;
+  border: none;
+  padding: 12px 30px;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+form input[type="submit"]:hover {
+  background: #000;
+  color: #6bd41a;
+  box-shadow: 0 0 15px #6bd41a;
+}
+
+#album-view {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#album-view .album {
+  margin: 10px;
+  border: 1px solid #6bd41a;
+  padding: 5px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+#album-view img {
+  max-width: 100%;
+}

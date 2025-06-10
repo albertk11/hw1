@@ -1,0 +1,175 @@
+body {
+  font-family: "Teko", sans-serif;
+  background-color: black;
+  color: #6bd41a;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    cursor:pointer;
+}
+
+.main {
+  max-width: 600px;
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+.main h1 {
+  font-size: 1.9em;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #6bd41a;
+}
+
+.names {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.name, .surname {
+  flex: 1;
+}
+
+.username, .email, .password, .confirm_password, .name, .surname {
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  border: 1px solid #6bd41a;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-family: "Teko", sans-serif;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.allow {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  font-size: 1.1em;
+}
+
+.allow label {
+  margin: 0;
+}
+
+.submit input {
+  width: 100%;
+  border-radius: 50px;
+  padding: 16px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: white;
+  background-color: black;
+  border: 3px solid #6bd41a;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: "Teko", sans-serif;
+}
+
+.submit input:hover {
+  background-color: #6bd41a;
+  color: black;
+}
+
+.signup {
+  margin: 20px 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.signup a {
+  color: #6bd41a;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.signup a:hover {
+  color: white;
+}
+
+.errorj {
+  display: block;
+  background-color: #e22134;
+  padding: 10px;
+  color: #fff;
+  font-size: 1em;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.errorj img {
+  width: 16px; 
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.name div, .surname div, .username div, .email div, 
+.password div, .confirm_password div {
+  color: black;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.name div img, .surname div img, .username div img, 
+.email div img, .password div img, .confirm_password div img {
+  width: 14px; 
+  height: 14px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 20px 15px;
+  }
+  
+  .names {
+    flex-direction: column;
+    gap: 0;
+  }
+}

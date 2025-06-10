@@ -1,0 +1,568 @@
+body {
+    background-color: black;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 5vh;  
+}
+
+#newsletter{
+color:white;
+font-size:2rem;
+font-family: "teko", sans-serif;
+text-transform: uppercase;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 15px;
+width: 90%;
+max-width: 70%;
+margin: 0 auto 40px;
+padding: 20px;
+background: rgba(20, 20, 20, 0.8);
+border: 2px solid #6bd41a;
+border-radius: 5px;
+white-space: nowrap;
+align-items: center;
+} 
+
+#newsletter input[type="text"] {
+  width: 200%;
+  padding: 12px;
+  background: #111;
+  border: 2px solid #6bd41a;
+  color: #6bd41a;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#newsletter input[type="submit"] {
+  background: #6bd41a;
+  color: #000;
+  border: none;
+  padding: 12px 30px;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+#newsletter input[type="submit"]:hover {
+  background: #000;
+  color: #6bd41a;
+  box-shadow: 0 0 15px #6bd41a;
+}
+
+#logo {
+    width: 12%;
+    height: 10%;
+}
+
+#logo img {
+    width: 150px;
+    height: auto;
+    justify-content: flex-start;
+    margin-top: -7px;
+}
+
+#scrittetop { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    margin-left: -10%;
+    width: 50%;
+    height: 300%;
+    color: white;
+}
+
+#scrittetop a {
+    color: white;
+    font-size: 1.5em;
+    font-family: "teko", sans-serif;
+    width: 12%;
+    text-align: center;
+    margin-top: 5px;
+    height: 40%;
+    text-decoration: none;
+}
+
+.greenbord:hover {
+    border-bottom: 7px solid #22bb39;
+    border-radius: 3%;
+}
+
+#menu-mobile {
+    display: none;
+}
+
+#lingua {
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    font-family: "teko", sans-serif;
+    width: 8%;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#img-ragazze {
+    display: flex;
+    background-image: url("immagini/ultra-rosa.png");
+    background-size: cover;
+    background-position: center;
+    height: 680px;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sopraimg {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 54px;
+    height: 54px;
+    border: 1px solid rgba(95, 95, 95, 0.7);
+    color: rgba(180, 180, 180, 0.8); 
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.sopraimg:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#combo {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: -8%;
+    margin-left: 10%;
+    background-color: black;
+    width: 25%;
+    height: 10%;
+}
+
+#scrittasopraimg {
+    display: inline-block;
+    color: white;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    white-space: nowrap;
+    padding: 2%;
+}
+
+#combo .button {
+    white-space: nowrap;
+    margin-top: 5%;
+}
+
+.tendina {
+    margin-top:5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: "teko", sans-serif;
+    text-transform: uppercase;
+}
+
+.tendina a {
+    width: 170px;
+    height: 250px;
+    background-color: #171717;
+    border: 1px solid #363636;
+    display: flex;
+    flex-direction:column;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+.tendina img{
+max-width:70%;
+max-height:70%;
+}
+
+.tendina p{
+color: #b6b6b6;
+}
+
+.tendina a:hover p{
+color:white;
+margin-bottom:20%;
+}
+
+.tendina a:hover img{
+margin-bottom: 10%;
+}
+
+.tendina a:hover {
+border-top: 5px solid #b6b6b6;
+background-color: #222222;
+}
+
+.hidden{
+    display: none;
+}
+
+.scrittabiancagrande {
+    color: white;
+    text-align: center;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    font-family: "teko", sans-serif;
+    font-weight: 900;
+}
+
+.scrittabiancamedia {
+    color: white;
+    text-align: center;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-family: "teko", sans-serif;
+    font-weight: 600;
+}
+
+#youtube {
+    color: #b6b6b6;
+    font-family: "teko", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: -5%;
+}
+
+#api {
+    color: white;
+    text-align: center;
+}
+
+#trelattine {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#trelattine img {
+    width: 6%;
+    margin: 0 4%;
+}
+
+#trelattine img:hover {
+    margin-bottom: 5%;
+}
+
+.parallelepipedo {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 44%;
+    padding: 0.5%;
+    border: 1px solid #5f5f5f;
+    border-left: 4px solid #4de04d;
+    font-family: "teko", sans-serif;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.parallelepipedo:hover {
+    border: 1px solid #4de04d;
+    border-left: 4px solid #4de04d;
+}
+
+.container {
+    display: flex;
+}
+
+.promo-box {
+    background-color: #1a1a1a;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    border: 1px solid #5f5f5f;
+    text-align: center;
+}
+
+.promo-box h2 {
+    font-size: 1.7rem;
+    color: #6bd41a;
+    font-family: "teko", sans-serif;
+    margin-right: 55%;
+    font-weight: 500;
+}
+
+.promo-box h3 {
+    font-size: 1.7rem;
+    color: #b6b6b6;
+    font-family: "teko", sans-serif;
+    margin-top: -1%;
+    margin-right: 27%;
+    font-weight: 500;
+}
+
+.promo-box p {
+    font-size: 1rem;
+    color: #b6b6b6;
+    font-family: "proxima-nova", sans-serif;
+}
+
+.button {
+    background: linear-gradient(to right, #22bb39, #bfec1d);
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: "teko", sans-serif;
+    text-decoration: none;
+    margin-right: 50%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.image-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    margin-top: 6%;
+    margin-bottom: -6%;
+}
+
+.image-box img {
+    width: 100%;
+}
+
+#ast {
+    padding: 2%;
+    margin-top: 20%;
+    border-top: 1px solid #919191;
+    font-family: "teko", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 2.5rem;
+    color: #808080;
+}
+
+#prodotti {
+    display: flex;
+    background-image: url(trending.png);
+    background-repeat: no-repeat;
+}
+
+#lattinafinale {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: -6%;
+}
+
+#lattinafinale img {
+    width: 30%;
+    height: auto;
+    align-items: center;
+}
+
+#meta {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#meta h2 {
+    margin-top: 15%;
+    color: white;
+    font-family: "teko", sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 6rem;
+}
+
+#meta h3 {
+    margin-top: -20%;
+    padding: 3% 0;
+    color: #6bd41a;
+    font-family: "teko", sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 6rem;
+}
+
+#meta p {
+    margin-top: -15%;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    color: white;
+}
+
+#meta .button {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#footer {
+    background-color: #5f5f5f;
+    margin-top: 15%;
+}
+
+#footer p {
+    text-align: center;
+    color: white;
+}
+
+@media(max-width: 500px) {
+    #scrittetop {
+        display: none;
+    }
+
+    #lingua {
+        display: none;
+    }
+
+    #img-ragazze {
+        margin-top: 30%;
+    }
+
+    .scrittabiancagrande {
+        font-size: 2.5rem;
+    }
+
+    .scrittabiancamedia {
+        font-size: 2.5rem;
+    }
+
+    #trelattine {
+        width: 250%;
+        justify-content: flex-start;
+    }
+
+    .parallelepipedo {
+        margin: 9vh 30%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-box {
+        width: 100%;
+        margin-top: 6%;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-bottom: 0%;
+    }
+
+    .promo-box {
+        width: 100%;
+        margin-top: 0%;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-bottom: 0%;
+        padding: 0;
+    }
+
+    .button {
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+
+    #youtube {
+        font-size: 1.5rem;
+        margin-top: -8%;
+    }
+
+    #ast {
+        font-size: 1.5rem;
+    }
+
+    #scrittasopraimg {
+        display: block;
+        color: white;
+        font-family: "proxima-nova", sans-serif;
+        font-weight: 700;
+    }
+
+    #prodotti {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #meta {
+        text-align: center;
+    }
+
+    #meta h2 {
+        font-size: 1.5rem;
+    }
+
+    #meta h3 {
+        font-size: 1.5rem;
+    }
+
+    #meta p {
+        font-size: 1rem;
+    }
+
+    #meta .button {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    #lattinafinale {
+        width: 100%;
+    }
+
+    #menu-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu-mobile div {
+        width: 8vw;
+        height: 9%;
+        background-color: white;
+        margin: 9% 0;
+        border-radius: 1vh;
+    }
+}

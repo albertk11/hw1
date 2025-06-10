@@ -1,0 +1,193 @@
+body {
+    background-color: black;
+    font-family: "teko", sans-serif;
+    color:white;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 5vh;  
+}
+
+#logo {
+    width: 12%;
+    height: 10%;
+}
+
+#logo img {
+    width: 150px;
+    height: auto;
+    justify-content: flex-start;
+    margin-top: -7px;
+}
+
+.scrittetop { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    margin-left:15%;
+    width: 50%;
+    height: 300%;
+    color: white;
+    margin-left: -5%;
+}
+
+.scrittetop a {
+    color: white;
+    font-size: 1.5em;
+    font-family: "teko", sans-serif;
+    width: 12%;
+    text-align: center;
+    margin-top: 5px;
+    height: 40%;
+    text-decoration:none;
+}
+
+#lingua {
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    font-family: "teko", sans-serif;
+    width: 8%;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#carrello img{
+display:flex;
+justify-content: flex-end;
+margin-top:-10%;
+width:50%;
+height:auto;
+cursor: pointer;
+}
+
+#scrittaenorme{
+background-image:url("immagini/sfondo.png");
+}
+
+#scrittaenorme h1{
+color:white;
+font-size:7em;
+text-align:center;
+margin-top:5%;
+}
+
+
+.categoria-div h2 {
+  margin-top:170px;
+  font-size: 2.5em;
+  }
+
+.categoria-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.monster-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:50px 0px 50px 50px;
+  border:1px solid grey;
+  padding-top: 5%;
+}
+
+.monster-div img {
+  width: 120px;
+  height:auto;
+}
+
+.monster-div .nome {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.monster-div .prezzo {
+  color: #6bd41a;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.monster-div .btn-carrello{
+  background: #6bd41a;
+  color: #000;
+  border: none;
+  padding: 12px 30px;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.monster-div .btn-carrello-rmv{
+  background: red;
+  color:black;
+  border: none;
+  padding: 12px 30px;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+
+.hidden{
+display:none;
+
+}
+
+#tenda{
+display:flex;
+flex-direction: row;
+width:100%;
+height:auto;
+margin-top: 3%;
+}
+
+.elemento-div {
+    margin-top: 5%;
+    margin-right:5%;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.elemento-div img{
+  max-width:66px;
+  max-height:auto;
+}
+
+.elemento-div p{
+text-align:center;
+font-size: 1.3rem;
+margin:0;
+}
+
+.prezzototale{
+margin-top: 5%;  
+text-align: center;
+font-size: 2.5rem;
+}
+

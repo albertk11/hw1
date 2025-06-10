@@ -1,0 +1,158 @@
+body {
+  font-family: "teko", sans-serif;
+  background-color: black;
+  color: #6bd41a;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    cursor:pointer;
+}
+
+
+.main h5{
+ font-size: 1.7em;
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: 900;
+ letter-spacing: 3px;
+ color: white;    
+}
+
+.error{
+    display: block;
+    background-color: #e22134;
+    padding: 14px 14px 12px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    width: 100%;
+  }
+
+  form{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6bd41a;
+  }
+
+  main{
+      text-align: center;
+      margin: 0 auto;
+      max-width: 450px;
+  }
+
+  .username, .password{
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.7em;
+      text-transform: uppercase;
+      font-weight: 900;
+      letter-spacing: 3px;
+  }
+
+  input{
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    border: 1px solid #6bd41a;
+    margin-top: 5px;
+    font-size: 16px;
+    background-color:black;
+  }
+
+  .submit-container{
+    display: flex;
+    align-items: center;
+
+  }
+
+  .remember{
+    display: flex;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+  }
+
+  .remember input{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+  }
+
+  .remember label{
+    font-size: 18px;
+    padding-left: 10px;
+    color: #616467;
+    margin-top: 3px;
+  }
+
+  .login-btn{
+    width: 50%;
+    margin-left:25%;
+  }
+
+  .login-btn input{
+    border-radius: 50px;
+    padding: 16px 14px 18px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: black;
+    transition-property: background-color;
+    transition-duration: .3s;
+    font-family: arial;
+  }
+
+  .login-btn input:hover{
+    cursor: pointer;
+    background-color: #6bd41a;
+    color:black;
+  }
+
+  .signup{
+    margin: 10px 0;
+  }
+
+  h4{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .signup-btn-container{
+    padding-right: 30px;
+  }
+
+  .signup-btn{
+    display: block;
+    border-radius: 50px;
+    border: 3px solid #6bd41a;
+    padding: 16px 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    width: 100%;
+    transition-property: background-color, color;
+    transition-duration: .3s;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-family: arial;
+  }
+
+  .signup-btn:hover{
+    border-radius: 50px;
+    background-color: #6bd41a;
+    color: black;
+    padding: 16px 14px 16px;
+  }
